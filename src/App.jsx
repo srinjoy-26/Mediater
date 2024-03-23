@@ -8,7 +8,7 @@ import About from './pages/About'
 export default function App() {
   return (
    <>
-     <div className='bg-gradient-to-b from-pink-700 to bg-purple-700  md:h-screen'>
+     <div className='bg-black  md:h-screen pt-2'>
      <Navbar/>
      <Routes>
          <Route path='/' element={<Home/>}></Route>
