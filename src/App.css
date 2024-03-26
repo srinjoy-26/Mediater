@@ -30,3 +30,32 @@
 #home-div p{
   font-family: "Open Sans", sans-serif;
 }
+
+#hero-text{
+  box-shadow: 0 0 10px 2.5px rgb(222, 219, 219);
+}
+
+.flogo{
+  background-image: url(./assets/65735da0d7017_Group21.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.footlinks a{
+  font-size: 18px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.footlinks a:hover{
+  border-bottom: 2px solid black;
+}
+
+.footcontact p{
+  color: black;
+}
+
+.card{
+  box-shadow: 0 0 10px 0.5px rgb(219, 213, 213);
+}

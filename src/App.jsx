@@ -8,7 +8,7 @@ import About from './pages/About'
 export default function App() {
   return (
    <>
-     <div className='bg-black  md:h-screen pt-2'>
+     <div className='bg-slate-100  md:h-screen overflow-x-hidden '>
      <Navbar/>
      <Routes>
          <Route path='/' element={<Home/>}></Route>
