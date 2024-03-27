@@ -6,7 +6,7 @@ const Testimonial = () => {
   return (
     <div className='flex flex-col gap-5 pt-[50px]'>
       <div>
-        <h2 className='text-2xl text-center font-semibold'>Don't Just Take Our Word for It: Read the customer's Reviews!</h2>
+        <h2 className='text-xl md:text-2xl text-center font-semibold'>Don't Just Take Our Word for It: Read the customer's Reviews!</h2>
       </div>
       <div className='flex justify-center items-center gap-5 flex-wrap'>
          <div className="card w-72 p-3 flex flex-col gap-4 rounded-md items-center">
