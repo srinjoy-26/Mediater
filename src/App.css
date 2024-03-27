@@ -59,3 +59,17 @@
 .card{
   box-shadow: 0 0 10px 0.5px rgb(185, 182, 182);
 }
+
+#imgdiv{
+  animation: updown 1.5s linear infinite;
+}
+
+@keyframes updown {
+  0%{
+    transform: translateY(4px);
+  }50%{
+    transform: translateY(-4px);
+  }100%{
+    transform: translateY(4px);
+  }
+}
