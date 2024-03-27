@@ -13,7 +13,7 @@ const Navbar = () => {
       <div id="Nvlinks" className='hidden gap-8 md:flex'>
         {Navitems.map((x,index)=>{
           return(
-            <Link to={x=='Home' ? "/" : `/${x.toLowerCase}` } key={index}><p  className="text-lg text-white hover:font-semibold">{x}</p></Link>
+            <Link to={x=='Home' ? "/" : `/${x.toLowerCase()}` } key={index}><p  className="text-lg text-white hover:font-semibold">{x}</p></Link>
           )
         })}
       </div>
