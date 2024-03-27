@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
     <div className="flex flex-col justify-center items-center gap-3 md:gap-5 md:h-[80vh] xl:flex-row px-3 pt-3 " id="home-div">
-      <div className="xl:w-[40%] md:w-[70%] flex flex-col gap-4 py-5 px-3  rounded-md " data-aos = "fade-right" id="hero-text">
+      <div className="xl:w-[40%] md:w-[70%] flex flex-col gap-4 py-5 px-4  rounded-md " data-aos = "fade-right" id="hero-text">
         <h1 className="text-4xl md:text-5xl text-black" id="home-heading">Connecting Brands with Creativity</h1>
         <p className=" text-xl md:text-2xl text-black font-semibold">Welcome to Mediater - Your Gateway to Digital Collaboration!</p>
         <p className="text-md md:text-lg text-black tracking-wide">At Mediater , we redefine collaboration by seamlessly connecting content creators with businesses, fostering a dynamic ecosystem of innovation and creativity. Our platform serves as the catalyst for strategic alliances, unlocking endless possibilities in the digital landscape. Join the revolution, where every collaboration is an opportunity to elevate and innovate.</p>
